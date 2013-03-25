@@ -1,0 +1,12 @@
+{
+  "name": "Tan",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Fills out your TAN table on Erstebank.hr",
+  "content_scripts": [
+    {
+      "matches" : ["https://netbanking.erstebank.hr/Prijava/PrijavaTan.aspx"],
+      "js": ["tan.js"]
+    }
+  ]
+}
